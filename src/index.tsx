@@ -1,2 +1,4 @@
-export * from '@components/SelectCheckbox';
-export * from '@components/SelectCheckboxAll';
+import { SelectCheckbox } from '@components/SelectCheckbox';
+import { SelectCheckboxAll } from '@components/SelectCheckboxAll';
+
+export { SelectCheckbox, SelectCheckboxAll };
